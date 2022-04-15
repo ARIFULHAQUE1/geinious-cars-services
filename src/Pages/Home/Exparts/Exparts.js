@@ -32,6 +32,7 @@ const Exparts = () => {
       }, [])
       return (
             <div className='container'>
+                  <h2 className='text-info text-center'>Our Experts</h2>
                   <div className='row'>
                         {
                               experts.map(expert => <Expart key={expert.id} expert={expert}></Expart>)

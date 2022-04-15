@@ -7,7 +7,7 @@ const Service = ({ service }) => {
              <img  src={img} alt="" />
              <h4>Price:{price}</h4>
              <p>{description}</p>
-             <button> Book For:{name}</button>
+             <button className='bg-black text-white border-3'> Book For:{name}</button>
           
           </div>
       );
