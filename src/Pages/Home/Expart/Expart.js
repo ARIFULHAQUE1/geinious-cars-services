@@ -6,7 +6,8 @@ const Expart = (props) => {
      const  {name,img}=props.expert
     
       return (
-        <Card className='w-100'>
+     <div className='col  col-lg-4'>
+           <Card className='w-100'>
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
@@ -17,6 +18,7 @@ const Expart = (props) => {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
+     </div>
       );
 };
 
